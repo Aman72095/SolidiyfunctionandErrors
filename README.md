@@ -14,7 +14,7 @@ The check_assert function takes two uint value and their sum is stored in anothe
 
 The check_revert function takes two uint value and their sum is stored in another variable. Now if the sum is greater than 0 and less than 255, The function returns "no overflow" string and sum value, for this we use revert() for validation here.
 
-Getting Started
+ #Getting Started
 Executing Program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
@@ -26,8 +26,8 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can interact with it by calling any of the three function to set the value, check_require function to perform the require statement, check_assert function to perform the assert statement and check_revert function to perform the revert function. you just need to enter the values and then click on call.
 
-Author
+#Author
 Aman Patel
 
-License
+#License
 This project is licensed under the MIT License - see the LICENSE file for details
